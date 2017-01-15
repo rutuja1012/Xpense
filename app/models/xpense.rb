@@ -1,0 +1,2 @@
+class Xpense < ApplicationRecord
+end

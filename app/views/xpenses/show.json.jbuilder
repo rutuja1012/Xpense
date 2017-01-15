@@ -1,0 +1,1 @@
+json.partial! "xpenses/xpense", xpense: @xpense

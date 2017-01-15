@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @xpense.name %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @xpense.amount %>
+</p>
+
+<%= link_to 'Edit', edit_xpense_path(@xpense) %> |
+<%= link_to 'Back', xpenses_path %>
